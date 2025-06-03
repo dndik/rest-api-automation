@@ -6,13 +6,14 @@ This project uses **Java**, **Cucumber**, **RestAssured**, and **Allure Reports*
 
 ## Project Setup
 
-1. **Unzip the Project**  
-   Extract the project zip file to your preferred location.
+1. **Clone the Repository**
+   Open a terminal and run:
+   git clone https://github.com/your-username/rest-api-automation.git
 
-2. **Import into IntelliJ IDEA**
-    - Open IntelliJ IDEA
+3. **Open the Project in IntelliJ IDEA**
+    - Launch IntelliJ IDEA
     - Go to `File > Open`
-    - Select the unzipped project folder
+    - Navigate to the cloned rest-api-automation folder and open it
     - IntelliJ will detect the `pom.xml` and import all Maven dependencies automatically
 
 ---
