@@ -1,0 +1,2230 @@
+2025-06-03 08:01:32 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 08:01:34 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 08:03:36 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 08:03:38 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 08:13:25 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 08:13:28 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ac25747f22",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T02:43:29.268+00:00",
+    "data": {
+        "name": "Apple MacBook Pro 16",
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 08:13:29 [main] INFO  org.example.api.ObjectApi - Creating item: Dell XPS 15
+2025-06-03 08:13:30 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ac2bdb7f23",
+    "name": "Dell XPS 15",
+    "createdAt": "2025-06-03T02:43:30.907+00:00",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:13:30 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733ac2bdb7f23
+2025-06-03 08:13:31 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019733ac2bdb7f23",
+    "name": "Dell XPS 15",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:13:31 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 08:13:32 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 08:13:32 [main] INFO  org.example.api.ObjectApi - Creating item: Lenovo ThinkPad X1
+2025-06-03 08:13:33 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ac36d87f25",
+    "name": "Lenovo ThinkPad X1",
+    "createdAt": "2025-06-03T02:43:33.720+00:00",
+    "data": {
+        "name": "Lenovo ThinkPad X1",
+        "CPU": "Intel Core i5",
+        "price": "1299.99"
+    }
+}
+2025-06-03 08:13:33 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019733ac36d87f25
+2025-06-03 08:13:34 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019733ac36d87f25 has been deleted."
+}
+2025-06-03 08:13:34 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733ac36d87f25
+2025-06-03 08:13:35 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019733ac36d87f25 was not found."
+}
+2025-06-03 08:14:13 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 08:14:16 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ace08c7f26",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T02:44:17.164+00:00",
+    "data": {
+        "name": "Apple MacBook Pro 16",
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 08:14:17 [main] INFO  org.example.api.ObjectApi - Creating item: Dell XPS 15
+2025-06-03 08:14:18 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ace7417f27",
+    "name": "Dell XPS 15",
+    "createdAt": "2025-06-03T02:44:18.881+00:00",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:14:18 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733ace7417f27
+2025-06-03 08:14:19 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019733ace7417f27",
+    "name": "Dell XPS 15",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:14:19 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 08:14:20 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 08:14:20 [main] INFO  org.example.api.ObjectApi - Creating item: Lenovo ThinkPad X1
+2025-06-03 08:14:21 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733acf21b7f29",
+    "name": "Lenovo ThinkPad X1",
+    "createdAt": "2025-06-03T02:44:21.659+00:00",
+    "data": {
+        "name": "Lenovo ThinkPad X1",
+        "CPU": "Intel Core i5",
+        "price": "1299.99"
+    }
+}
+2025-06-03 08:14:21 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019733acf21b7f29
+2025-06-03 08:14:21 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019733acf21b7f29 has been deleted."
+}
+2025-06-03 08:14:21 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733acf21b7f29
+2025-06-03 08:14:22 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019733acf21b7f29 was not found."
+}
+2025-06-03 08:18:34 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 08:18:37 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733b0db637f36",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T02:48:37.987+00:00",
+    "data": {
+        "name": "Apple MacBook Pro 16",
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 08:18:38 [main] INFO  org.example.api.ObjectApi - Creating item: Dell XPS 15
+2025-06-03 08:18:39 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733b0e1df7f37",
+    "name": "Dell XPS 15",
+    "createdAt": "2025-06-03T02:48:39.647+00:00",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:18:39 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733b0e1df7f37
+2025-06-03 08:18:39 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019733b0e1df7f37",
+    "name": "Dell XPS 15",
+    "data": {
+        "name": "Dell XPS 15",
+        "CPU": "Intel Core i7",
+        "price": "1599.99"
+    }
+}
+2025-06-03 08:18:40 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 08:18:40 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 08:18:40 [main] INFO  org.example.api.ObjectApi - Creating item: Lenovo ThinkPad X1
+2025-06-03 08:18:41 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733b0ec8a7f38",
+    "name": "Lenovo ThinkPad X1",
+    "createdAt": "2025-06-03T02:48:42.379+00:00",
+    "data": {
+        "name": "Lenovo ThinkPad X1",
+        "CPU": "Intel Core i5",
+        "price": "1299.99"
+    }
+}
+2025-06-03 08:18:41 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019733b0ec8a7f38
+2025-06-03 08:18:42 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019733b0ec8a7f38 has been deleted."
+}
+2025-06-03 08:18:42 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733b0ec8a7f38
+2025-06-03 08:18:43 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019733b0ec8a7f38 was not found."
+}
+2025-06-03 09:10:31 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:10:35 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733e06e5a7fc6",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:40:35.802+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:10:36 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: null
+2025-06-03 09:10:36 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=null was not found."
+}
+2025-06-03 09:10:36 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:10:37 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:10:37 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: null
+2025-06-03 09:10:38 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "error": "Object with id = null doesn't exist."
+}
+2025-06-03 09:13:58 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:14:01 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733e393ab7fcb",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:44:01.964+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:15:09 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: null
+2025-06-03 09:15:44 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=null was not found."
+}
+2025-06-03 09:16:21 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:16:23 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733e5bfa57fcf",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:46:24.293+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:16:24 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: null
+2025-06-03 09:16:25 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=null was not found."
+}
+2025-06-03 09:16:25 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:16:26 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:16:26 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: null
+2025-06-03 09:16:27 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "error": "Object with id = null doesn't exist."
+}
+2025-06-03 09:21:05 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:21:08 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ea16787fd6",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:51:08.664+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:21:08 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: null
+2025-06-03 09:21:09 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=null was not found."
+}
+2025-06-03 09:21:09 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:21:10 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:21:10 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: null
+2025-06-03 09:21:11 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "error": "Object with id = null doesn't exist."
+}
+2025-06-03 09:23:05 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:23:08 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733ebedb37fdd",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:53:09.299+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:23:09 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733ebedb37fdd
+2025-06-03 09:23:10 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019733ebedb37fdd",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:23:10 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:23:11 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:23:11 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019733ebedb37fdd
+2025-06-03 09:23:11 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019733ebedb37fdd has been deleted."
+}
+2025-06-03 09:23:11 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733ebedb37fdd
+2025-06-03 09:23:12 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019733ebedb37fdd was not found."
+}
+2025-06-03 09:28:53 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:28:56 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019733f13b967fee",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T03:58:56.918+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:28:57 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733f13b967fee
+2025-06-03 09:28:58 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019733f13b967fee",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:28:58 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:28:58 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:28:58 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019733f13b967fee
+2025-06-03 09:28:59 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019733f13b967fee has been deleted."
+}
+2025-06-03 09:28:59 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019733f13b967fee
+2025-06-03 09:29:00 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019733f13b967fee was not found."
+}
+2025-06-03 09:55:37 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 09:55:40 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f01973409b318004f",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T04:25:40.376+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:55:40 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f01973409b318004f
+2025-06-03 09:55:41 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f01973409b318004f",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 09:55:41 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 09:55:42 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 09:55:42 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f01973409b318004f
+2025-06-03 09:55:43 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f01973409b318004f has been deleted."
+}
+2025-06-03 09:55:43 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f01973409b318004f
+2025-06-03 09:55:44 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f01973409b318004f was not found."
+}
+2025-06-03 10:06:03 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 10:06:06 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f01973413432f006a",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T04:36:07.087+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 10:06:07 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f01973413432f006a
+2025-06-03 10:06:08 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f01973413432f006a",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 10:06:08 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 10:06:09 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 10:06:09 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f01973413432f006a
+2025-06-03 10:06:10 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f01973413432f006a has been deleted."
+}
+2025-06-03 10:06:10 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f01973413432f006a
+2025-06-03 10:06:11 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f01973413432f006a was not found."
+}
+2025-06-03 17:47:44 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 17:47:47 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019735b9ed5c0415",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T12:17:46.844+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:47:47 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735b9ed5c0415
+2025-06-03 17:47:49 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019735b9ed5c0415",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:47:49 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 17:47:50 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 17:47:50 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019735b9ed5c0415
+2025-06-03 17:47:51 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019735b9ed5c0415 has been deleted."
+}
+2025-06-03 17:47:51 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735b9ed5c0415
+2025-06-03 17:47:52 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019735b9ed5c0415 was not found."
+}
+2025-06-03 17:49:21 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 17:49:21 [main] ERROR org.example.api.ObjectApi - Error while creating item
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.body(Object)" because the return value of "org.example.utils.RequestBuilder.getRequest()" is null
+	at org.example.api.ObjectApi.createItem(ObjectApi.java:23) [classes/:?]
+	at stepdefs.ApiStepDefs.i_send_a_post_request_to_add_the_object(ApiStepDefs.java:36) [test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.14.0.jar:7.14.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-06-03 17:49:21 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: null
+2025-06-03 17:49:21 [main] ERROR org.example.api.ObjectApi - Error while getting item
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.get(String, Object[])" because the return value of "org.example.utils.RequestBuilder.getRequest()" is null
+	at org.example.api.ObjectApi.getItem(ObjectApi.java:44) [classes/:?]
+	at stepdefs.ApiStepDefs.i_send_a_get_request_for_the_object_by_id(ApiStepDefs.java:70) [test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.14.0.jar:7.14.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-06-03 17:49:21 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 17:49:21 [main] ERROR org.example.api.ObjectApi - Error while listing items
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.get(String, Object[])" because the return value of "org.example.utils.RequestBuilder.getRequest()" is null
+	at org.example.api.ObjectApi.listItems(ObjectApi.java:63) [classes/:?]
+	at stepdefs.ApiStepDefs.i_send_a_get_request_to_list_all_objects(ApiStepDefs.java:90) [test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.14.0.jar:7.14.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-06-03 17:49:22 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: null
+2025-06-03 17:49:22 [main] ERROR org.example.api.ObjectApi - Error while deleting item
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.delete(String, Object[])" because the return value of "org.example.utils.RequestBuilder.getRequest()" is null
+	at org.example.api.ObjectApi.deleteItem(ObjectApi.java:83) [classes/:?]
+	at stepdefs.ApiStepDefs.i_send_a_delete_request_for_the_object_by_id(ApiStepDefs.java:77) [test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) [cucumber-core-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.14.0.jar:7.14.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.14.0.jar:7.14.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-06-03 17:49:50 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 17:49:53 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019735bbd97a041e",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T12:19:52.826+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:49:53 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735bbd97a041e
+2025-06-03 17:49:54 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019735bbd97a041e",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:49:54 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 17:49:55 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 17:49:55 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019735bbd97a041e
+2025-06-03 17:49:56 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019735bbd97a041e has been deleted."
+}
+2025-06-03 17:49:56 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735bbd97a041e
+2025-06-03 17:49:57 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019735bbd97a041e was not found."
+}
+2025-06-03 17:58:53 [main] INFO  org.example.api.ObjectApi - Creating item: Apple MacBook Pro 16
+2025-06-03 17:58:56 [main] INFO  org.example.api.ObjectApi - Create item response: {
+    "id": "ff80818196f2a23f019735c4231d0432",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-06-03T12:28:55.965+00:00",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:58:56 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735c4231d0432
+2025-06-03 17:58:57 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "id": "ff80818196f2a23f019735c4231d0432",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "CPU": "Intel Core i9",
+        "price": "1849.99"
+    }
+}
+2025-06-03 17:58:57 [main] INFO  org.example.api.ObjectApi - Fetching all items
+2025-06-03 17:58:58 [main] INFO  org.example.api.ObjectApi - List items response: [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+2025-06-03 17:58:58 [main] INFO  org.example.api.ObjectApi - Deleting item with ID: ff80818196f2a23f019735c4231d0432
+2025-06-03 17:58:59 [main] INFO  org.example.api.ObjectApi - Delete item response: {
+    "message": "Object with id = ff80818196f2a23f019735c4231d0432 has been deleted."
+}
+2025-06-03 17:58:59 [main] INFO  org.example.api.ObjectApi - Fetching item with ID: ff80818196f2a23f019735c4231d0432
+2025-06-03 17:59:00 [main] INFO  org.example.api.ObjectApi - Get item response: {
+    "error": "Oject with id=ff80818196f2a23f019735c4231d0432 was not found."
+}
