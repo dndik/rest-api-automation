@@ -8,7 +8,7 @@ This project uses **Java**, **Cucumber**, **RestAssured**, and **Allure Reports*
 
 1. **Clone the Repository**
    Open a terminal and run:
-   git clone https://github.com/your-username/rest-api-automation.git
+   git clone https://github.com/dndik/rest-api-automation.git
 
 3. **Open the Project in IntelliJ IDEA**
     - Launch IntelliJ IDEA
